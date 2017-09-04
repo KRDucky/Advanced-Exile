@@ -35,3 +35,4 @@ ExileServer_object_container_database_insert = "Exile_Server_Overrides\ExileServ
 ExileServer_object_container_createContainer = "Exile_Server_Overrides\ExileServer_object_container_createContainer.sqf";
 ExileServer_object_construction_database_load = "Exile_Server_Overrides\ExileServer_object_construction_database_load.sqf";
 ExileServer_object_construction_database_insert = "Exile_Server_Overrides\ExileServer_object_construction_database_insert.sqf";
+ExileClient_object_item_consume = "Overrides\ExileClient_object_item_consume.sqf";

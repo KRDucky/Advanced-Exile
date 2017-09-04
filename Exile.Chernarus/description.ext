@@ -4,9 +4,9 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
 ///////////////////////////////////////////////////////////////////////////////
-author = "Updated by KRDucky and DirtySanchez";
-onLoadName = "Advanced Exile Chernarus";
-onLoadMission= "www.hostiletakeover.co";
+author = "Updated by [FPS]kuplion";
+onLoadName = "Exile Chernarus";
+onLoadMission= "www.exilemod.com";
 loadScreen = "exile_assets\texture\mod\logo.paa";
 disableChannels[] = {0, 2};
 OnLoadIntro = "";

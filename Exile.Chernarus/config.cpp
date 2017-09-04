@@ -2196,13 +2196,13 @@ class CfgExileArsenal
 	class ItemCompass								{ quality = 1; price = 6; };
 	class ItemRadio									{ quality = 1; price = 40; };
 	class Binocular									{ quality = 1; price = 40; };
-	class Rangefinder								{ quality = 3; price = 200; };
+	//class Rangefinder								{ quality = 3; price = 200; };
 	class Laserdesignator							{ quality = 6; price = 750; };
-	class Laserdesignator_02						{ quality = 6; price = 750; };
-	class Laserdesignator_03						{ quality = 6; price = 750; };
-	class NVGoggles									{ quality = 2; price = 100; };
-	class NVGoggles_INDEP							{ quality = 2; price = 100; };
-	class NVGoggles_OPFOR							{ quality = 2; price = 100; };
+	//class Laserdesignator_02						{ quality = 6; price = 750; };
+	//class Laserdesignator_03						{ quality = 6; price = 750; };
+	//class NVGoggles									{ quality = 2; price = 100; };
+	//class NVGoggles_INDEP							{ quality = 2; price = 100; };
+	//class NVGoggles_OPFOR							{ quality = 2; price = 100; };
 	class Exile_Item_XM8							{ quality = 2; price = 20; };
 	class Exile_Item_MobilePhone					{ quality = 6; price = 500; };
 
@@ -2616,10 +2616,10 @@ class CfgExileArsenal
 	class optic_Holosight_khk_F       { quality = 1; price = 50; };
 	class optic_Holosight_smg_blk_F   { quality = 1; price = 50; };
 	class bipod_01_F_khk              { quality = 2; price = 10; };
-	class O_NVGoggles_hex_F           { quality = 3; price = 150; };
-	class O_NVGoggles_urb_F           { quality = 3; price = 150; };
-	class O_NVGoggles_ghex_F          { quality = 3; price = 150; };
-	class NVGoggles_tna_F             { quality = 2; price = 100; };
+	//class O_NVGoggles_hex_F           { quality = 3; price = 150; };
+	//class O_NVGoggles_urb_F           { quality = 3; price = 150; };
+	//class O_NVGoggles_ghex_F          { quality = 3; price = 150; };
+	//class NVGoggles_tna_F             { quality = 2; price = 100; };
 	//class NVGogglesB_blk_F            { quality = 1; price = 1000; }; //Normal NightV but fullscreen thermal
 	//class NVGogglesB_grn_F            { quality = 1; price = 1000; };	//Normal NightV but fullscreen thermal
 	//class NVGogglesB_gry_F            { quality = 1; price = 1000; };	//Normal NightV but fullscreen thermal
@@ -3028,12 +3028,12 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// Hunter
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Car_Hunter 								{ quality = 5; price = 26500; };
+	//class Exile_Car_Hunter 								{ quality = 5; price = 26500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ifrit
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Car_Ifrit 								{ quality = 4; price = 23000; };
+	//class Exile_Car_Ifrit 								{ quality = 4; price = 23000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Offroad
@@ -3115,7 +3115,7 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// SUV (Armed)
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Car_SUV_Armed_Black 					{ quality = 4; price = 25000; };
+	class Exile_Car_SUV_Armed_Black 					{ quality = 4; price = 50000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// BRDM2
@@ -3133,8 +3133,8 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// HMMWV
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Car_HMMWV_M134_Green 							{ quality = 5; price = 33000; };
-	class Exile_Car_HMMWV_M134_Desert 							{ quality = 5; price = 33000; };
+	class Exile_Car_HMMWV_M134_Green 							{ quality = 5; price = 63000; };
+	class Exile_Car_HMMWV_M134_Desert 							{ quality = 5; price =633000; };
 	class Exile_Car_HMMWV_M2_Green 								{ quality = 6; price = 40000; };
 	class Exile_Car_HMMWV_M2_Desert 							{ quality = 6; price = 40000; };
 	class Exile_Car_HMMWV_MEV_Green 							{ quality = 3; price = 21000; };
@@ -3248,7 +3248,7 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
   #include "TRADERS\ACE\ItemListACEG.hpp"
 
-	
+
 	//RZ infection
 	class rzinfection_antivirus_pills		{ quality = 1; price = 250; };
 	class rzinfection_antivirus_injector	{ quality = 1; price = 750; };
@@ -3476,7 +3476,7 @@ class CfgExileLootSettings
  	 * This results in 30 loot positions and that is too much. So we
  	 * cap this at 10
  	 */
-	maximumNumberOfLootSpotsPerBuilding = 3;
+	maximumNumberOfLootSpotsPerBuilding = 4;
 
 	/**
 	 * Exile spawns a random number of items per loot spot. This
@@ -4270,7 +4270,7 @@ class CfgLocker
 {
 	numbersOnly = "0123456789";
 
-	maxDeposit = 10000;
+	maxDeposit = 10000000;
 };
 
 class CfgPlayer
@@ -4943,9 +4943,7 @@ class CfgTraderCategories
 			"muzzle_snds_H_SW",
 			"muzzle_snds_L",
 			"muzzle_snds_M",
-      //ACE
-
-			//Apex
+      	//Apex
 			"muzzle_snds_H_khk_F",
 			"muzzle_snds_H_snd_F",
 			"muzzle_snds_58_blk_F",
@@ -5016,18 +5014,7 @@ class CfgTraderCategories
 			//"optic_tws",
 			//"optic_tws_mg",
 			"optic_Yorris",
-      // ACE
-      //"ACE_optic_Arco_2D",
-			//"ACE_optic_Arco_PIP",
-			//"ACE_optic_LRPS_2D",
-			//"ACE_optic_LRPS_PIP",
-			//"ACE_optic_SOS_2D",
-			//"ACE_optic_SOS_PIP",
-			//"ACE_optic_MRCO_2D",
-			//"ACE_optic_MRCO_PIP",
-			//"ACE_optic_Hamr_2D",
-			//"ACE_optic_Hamr_PIP",
-			//Apex
+      		//Apex
 			"optic_Arco_blk_F",
 			"optic_Arco_ghex_F",
 			"optic_DMS_ghex_F",
@@ -5058,6 +5045,7 @@ class CfgTraderCategories
 			"Exile_Item_LightBulb",
 			"Exile_Item_MetalBoard",
 			"Exile_Item_MetalPole",
+			"ToolKit",
 			"Exile_Item_SafeKit",
 			"Exile_Item_CamoTentKit",
 			"Exile_Item_CodeLock",
@@ -5207,31 +5195,7 @@ class CfgTraderCategories
 			"Exile_Item_Pliers",
 			"Exile_Item_Grinder",
 			"Exile_Item_Foolbox",
-      // ACE
-      /*"ACE_DAGR",
-      "ACE_Cellphone",
-			"ACE_Clacker",
-			"ACE_M26_Clacker",
-			"ACE_DefusalKit",
-			"ACE_DeadManSwitch",
-      "ACE_ATragMX",
-      "ACE_HuntIR_monitor",
-      "ACE_Kestrel4500",
-      "ACE_wirecutter",
-      "ACE_MapTools",
-      "ACE_microDAGR",
-      "ACE_RangeTable_82mm",
-      "ACE_RangeCard",
-      "ACE_MX2A",
-      "ACE_SpottingScope",
-      "ACE_EntrenchingTool",
-      "ACE_Tripod",
-      "ACE_Vector",
-			"ACE_VectorDay",
-      "ACE_Yardage450",
-      "ACE_EarPlugs",
-			*/
-      // Exile
+            // Exile
 			/*
 			"Exile_Item_CordlessScrewdriver",
 			"Exile_Item_FireExtinguisher",
@@ -5248,7 +5212,6 @@ class CfgTraderCategories
 			"Exile_Item_Bullets_762",
 			"Exile_Item_WeaponParts",
 			*/
-
 			"Binocular",
 			"Rangefinder",
 			/*
@@ -5256,9 +5219,9 @@ class CfgTraderCategories
 			"Laserdesignator_02",
 			"Laserdesignator_03",
 			*/
-
 			"ItemGPS",
 			"ItemMap",
+			"ToolKit",
 			"ItemCompass",
 			"ItemRadio",
 			"ItemWatch",
@@ -5275,13 +5238,7 @@ class CfgTraderCategories
 			"Exile_Item_InstaDoc",
 			"Exile_Item_Bandage",
 			"Exile_Item_Vishpirin",
-      //"ACE_bloodIV",
-			//"ACE_bloodIV_500",
-      //"ACE_fieldDressing",
-      //"ACE_epinephrine",
-			//"ACE_morphine",
-      //"ACE_bodyBag",
-      "rzinfection_antivirus_pills",
+            "rzinfection_antivirus_pills",
 			"rzinfection_antivirus_injector",
 			"Exile_Item_Heatpack"
 
@@ -5305,15 +5262,7 @@ class CfgTraderCategories
 			"G_B_Diving",
 			"G_O_Diving",
 			"G_I_Diving",
-      //"ACE_NVG_Gen1",
-      //"ACE_Flashlight_MX991",
-			//"ACE_Flashlight_KSF1",
-			//"ACE_Flashlight_XL50",
-			//"ACE_NVG_Gen2",
-			//"ACE_NVG_Gen3",
-			//"ACE_NVG_Gen4",
-			//"ACE_NVG_Wide",
-			"O_NVGoggles_hex_F",
+      		"O_NVGoggles_hex_F",
 			"O_NVGoggles_urb_F",
 			"O_NVGoggles_ghex_F",
 			"NVGoggles_tna_F"
@@ -5359,11 +5308,7 @@ class CfgTraderCategories
 			"B_TacticalPack_ocamo",
 			"B_TacticalPack_oli",
 			"B_TacticalPack_rgr",
-      //ACE
-      //"ACE_gunbag",
-			//"ACE_gunbag_Tan",
-      //"ACE_TacticalLadder_Pack",
-			//Apex
+     		//Apex
 			"B_Bergen_mcamo_F",
 			"B_Bergen_dgtl_F",
 			"B_Bergen_hex_F",
@@ -5479,41 +5424,7 @@ class CfgTraderCategories
 			"200Rnd_556x45_Box_Tracer_F",
 			"200Rnd_556x45_Box_Tracer_Red_F",
 			"10Rnd_9x21_Mag",
-      // ACE3
-      /*"ACE_100Rnd_65x39_caseless_mag_Tracer_Dim",
-			"ACE_200Rnd_65x39_cased_Box_Tracer_Dim",
-			"ACE_30Rnd_65x39_caseless_mag_Tracer_Dim",
-			"ACE_30Rnd_65x39_caseless_green_mag_Tracer_Dim",
-			"ACE_30Rnd_556x45_Stanag_M995_AP_mag",
-			"ACE_30Rnd_556x45_Stanag_Mk262_mag",
-			"ACE_30Rnd_556x45_Stanag_Mk318_mag",
-			"ACE_30Rnd_556x45_Stanag_Tracer_Dim",
-			"ACE_20Rnd_762x51_Mag_Tracer",
-			"ACE_20Rnd_762x51_Mag_Tracer_Dim",
-			"ACE_20Rnd_762x51_Mag_SD",
-			"ACE_10Rnd_762x51_M118LR_Mag",
-			"ACE_10Rnd_762x51_Mk316_Mod_0_Mag",
-			"ACE_10Rnd_762x51_Mk319_Mod_0_Mag",
-			"ACE_10Rnd_762x51_M993_AP_Mag",
-			"ACE_20Rnd_762x51_M118LR_Mag",
-			"ACE_20Rnd_762x51_Mk316_Mod_0_Mag",
-			"ACE_20Rnd_762x51_Mk319_Mod_0_Mag",
-			"ACE_20Rnd_762x51_M993_AP_Mag",
-			"ACE_20Rnd_762x67_Mk248_Mod_0_Mag",
-			"ACE_20Rnd_762x67_Mk248_Mod_1_Mag",
-			"ACE_20Rnd_762x67_Berger_Hybrid_OTM_Mag",
-			"ACE_30Rnd_65x47_Scenar_mag",
-			"ACE_30Rnd_65_Creedmor_mag",
-			"ACE_10Rnd_338_300gr_HPBT_Mag",
-			"ACE_10Rnd_338_API526_Mag",
-			"ACE_5Rnd_127x99_Mag",
-			"ACE_5Rnd_127x99_API_Mag",
-			"ACE_5Rnd_127x99_AMAX_Mag",
-			"ACE_30Rnd_9x19_mag",
-			"ACE_16Rnd_9x19_mag",
-			"ACE_10Rnd_762x54_Tracer_mag",
-			*/
-      // Exile
+            // Exile
 			"Exile_Magazine_5Rnd_127x108_Bullet_Cam_Mag",
 			"Exile_Magazine_5Rnd_127x108_APDS_Bullet_Cam_Mag",
 			"Exile_Magazine_10Rnd_93x64_DMR_05_Bullet_Cam_Mag",
@@ -5541,11 +5452,6 @@ class CfgTraderCategories
 			"Chemlight_red",
 			"FlareGreen_F",
 			"FlareRed_F",
-			"FlareWhite_F",
-      //"ACE_HandFlare_White",
-			//"ACE_HandFlare_Red",
-			//"ACE_HandFlare_Green",
-			//"ACE_HandFlare_Yellow",
 			"FlareYellow_F",
 			"UGL_FlareGreen_F",
 			"UGL_FlareRed_F",
@@ -5601,14 +5507,7 @@ class CfgTraderCategories
 			"ACE_M84",
 			"O_IR_Grenade",
 			"I_IR_Grenade",
-      //"ACE_HuntIR_M203",
-      //"ACE_IR_Strobe_Item",
-      //"ACE_1Rnd_82mm_Mo_HE",
-			//"ACE_1Rnd_82mm_Mo_Smoke",
-			//"ACE_1Rnd_82mm_Mo_Illum",
-			//"ACE_1Rnd_82mm_Mo_HE_Guided",
-			//"ACE_1Rnd_82mm_Mo_HE_LaserGuided",
-			"1Rnd_HE_Grenade_shell",
+      		"1Rnd_HE_Grenade_shell",
 			"3Rnd_HE_Grenade_shell",
 			"APERSBoundingMine_Range_Mag",
 			"APERSMine_Range_Mag",
@@ -5640,17 +5539,7 @@ class CfgTraderCategories
 			"Exile_Weapon_Makarov",
 			"Exile_Weapon_Taurus",
 			"Exile_Weapon_TaurusGold",
-      "CUP_hgun_Phantom",
-      "CUP_hgun_PB6P9",
-      "CUP_hgun_MicroUzi",
-      "CUP_hgun_SA61",
-      "CUP_hgun_Makarov",
-      "CUP_hgun_M9",
-      "CUP_hgun_Glock17",
-      "CUP_hgun_glock17_flashlight",
-      "CUP_hgun_Duty_M3X",
-      "CUP_hgun_Duty",
-      //Apex
+            //Apex
 			"hgun_Pistol_01_F",
 			"hgun_P07_khk_F",
 			"Exile_Weapon_SA61"
@@ -5666,11 +5555,7 @@ class CfgTraderCategories
 			"hgun_PDW2000_F",
 			"SMG_01_F",
 			"SMG_02_F",
-      "CUP_smg_MP5A5",
-      "CUP_smg_MP5SD6",
-      "CUP_smg_EVO",
-      "CUP_smg_bizon",
-      "SMG_05_F"
+            "SMG_05_F"
 		};
 	};
 
@@ -5688,30 +5573,7 @@ class CfgTraderCategories
 			"Exile_Weapon_RPK",
 			"Exile_Weapon_PK",
 			"Exile_Weapon_PKP"
-      // CUP
-      /*"CUP_arifle_RPK74",
-      "CUP_arifle_RPK74M",
-      "CUP_arifle_MG36",
-      "CUP_arifle_MG36_camo",
-      "CUP_lmg_L110A1",
-      "CUP_lmg_L7A2",
-      "CUP_lmg_M240",
-      "CUP_lmg_M249_E2",
-      "CUP_lmg_m249_para",
-      "CUP_lmg_m249_pip1",
-      "CUP_lmg_m249_pip2",
-      "CUP_lmg_m249_pip3",
-      "CUP_lmg_m249_pip4",
-      "CUP_lmg_m249_SQuantoon",
-      "CUP_lmg_M60E4",
-      "CUP_lmg_minimi",
-      "CUP_lmg_minimi_railed",
-      "CUP_lmg_minimipara",
-      "CUP_lmg_Pecheneg",
-      "CUP_lmg_Mk48_wdl",
-      "CUP_lmg_UK59"
-
-			/*
+      		/*
 			"MMG_01_hex_F",
 			"MMG_01_tan_F",
 			"MMG_02_black_F",
@@ -5752,50 +5614,7 @@ class CfgTraderCategories
 			"Exile_Weapon_AK74_GL",
 			"Exile_Weapon_AK47",
 			"Exile_Weapon_AKS_Gold",
-      // CUP
-      /*"CUP_arifle_AK107",
-      "CUP_arifle_AK107_GL",
-      "CUP_arifle_AK74",
-      "CUP_arifle_AK74_GL",
-      "CUP_arifle_AK74M",
-      "CUP_arifle_AK74M_GL",
-      "CUP_arifle_AKM",
-      "CUP_arifle_AKS",
-      "CUP_arifle_AKS74",
-      "CUP_arifle_AKS74U",
-      "CUP_arifle_AKS_Gold",
-      "CUP_arifle_CZ805_A1",
-      "CUP_arifle_CZ805_A2",
-      "CUP_arifle_CZ805_B",
-      "CUP_arifle_CZ805_B_GL",
-      "CUP_arifle_CZ805_GL",
-      "CUP_arifle_FNFAL",
-      "CUP_arifle_FNFAL5061",
-      "CUP_arifle_FNFAL5062",
-      "CUP_arifle_FNFAL_railed",
-      "CUP_arifle_G36C",
-      "CUP_arifle_G36C_camo",
-      "CUP_arifle_M16A2",
-      "CUP_arifle_M16A2_GL",
-      "CUP_arifle_M16A4_Base",
-      "CUP_arifle_M16A4_GL",
-      "CUP_arifle_M4A1",
-      "CUP_arifle_M4A1_black",
-      "CUP_arifle_M4A1_BUIS_camo_GL",
-      "CUP_arifle_M4A1_BUIS_desert_GL",
-      "CUP_arifle_M4A1_BUIS_GL",
-      "CUP_arifle_M4A1_camo",
-      "CUP_arifle_M4A3_desert",
-      "CUP_arifle_Mk16_CQC",
-      "CUP_arifle_Mk16_CQC_FG",
-      "CUP_arifle_Mk16_STD",
-      "CUP_arifle_Mk16_STD_FG",
-      "CUP_arifle_Mk16_SV",
-      "CUP_arifle_Mk17_CQC",
-      "CUP_arifle_Mk17_STD",
-      "CUP_arifle_Mk20",
-      "CUP_arifle_Sa58RIS1",*/
-			//Apex
+      		//Apex
 			"arifle_AK12_F",
 			"arifle_AK12_GL_F",
 			"arifle_AKM_F",
@@ -5840,10 +5659,7 @@ class CfgTraderCategories
 		items[] =
 		{
 			"Exile_Weapon_M1014"
-      //"CUP_sgun_AA12",
-      //"CUP_sgun_Saiga12K",
-      //"CUP_sgun_M1014"
-    };
+        };
 	};
 
 	class SniperRifles
@@ -5875,26 +5691,7 @@ class CfgTraderCategories
 			"srifle_GM6_F",
 			"srifle_LRR_camo_F",
 			"srifle_LRR_F",
-      /*"CUP_srifle_CZ550_rail",
-      "CUP_srifle_CZ750",
-      "CUP_srifle_G22_des",
-      "CUP_srifle_LeeEnfield_rail",
-      "CUP_srifle_L129A1",
-      "CUP_srifle_L129A1_HG",
-      "CUP_srifle_M110",
-      "CUP_srifle_M24_des",
-      "CUP_srifle_M40A3",
-      "CUP_srifle_Mk12SPR",
-      "CUP_srifle_SVD",
-      "CUP_srifle_SVD_des",
-      "CUP_srifle_VSSVintorez",
-      "CUP_srifle_M40A3_bipod",
-      "CUP_srifle_M107_Base",
-      "CUP_srifle_ksvk",
-      "CUP_srifle_AWM_wdl",
-      "CUP_srifle_AWM_des",
-      "CUP_srifle_AS50",*/
-      "Exile_Weapon_CZ550",
+            "Exile_Weapon_CZ550",
 			"Exile_Weapon_SVD",
 			"Exile_Weapon_SVDCamo",
 			"Exile_Weapon_VSSVintorez",
@@ -6138,6 +5935,7 @@ class CfgTraders
 			"Vests",
 			"Backpacks",
 			"ACEMedical",
+			"ACETools",
 			"FirstAid"
 		};
 	};
@@ -6167,6 +5965,7 @@ class CfgTraders
 		categories[] =
 		{
 			"Hardware",
+			"ACETools",
 			"Tools"
 		};
 	};
