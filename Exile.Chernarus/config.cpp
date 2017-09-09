@@ -96,7 +96,9 @@ class ACE3Bandage: Exile_AbstractCraftingRecipe
 {
 	name = "ACE3 Medical Bandage";
 	pictureItem = "ACE_fieldDressing";
-	returnedItems[] = {};
+	returnedItems[] = {
+		{2, "ACE_fieldDressing"}
+	};
 	components[] =
 	{
 		{4, "Exile_Item_ToiletPaper"},
@@ -1643,6 +1645,7 @@ class CfgExileArsenal
 	class Exile_Uniform_BambiOverall				{ quality = 1; price = 1; sellPrice = 1; };
   #include "TRADERS\CUPW\ItemListCUPW.hpp"
 	#include "TRADERS\CUPV\ItemListCUPV.hpp"
+	#include "TRADERS\CUPW\SaleOnlyListCUPW.hpp"
 	///////////////////////////////////////////////////////////////////////////////
 	// Civillian Clothing
 	///////////////////////////////////////////////////////////////////////////////

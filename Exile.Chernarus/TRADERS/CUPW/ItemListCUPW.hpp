@@ -15,21 +15,8 @@
 	class CUP_arifle_AKS									{ quality = 1; price = 400; };
 	class CUP_arifle_AKS_Gold								{ quality = 1; price = 400; };
 	class CUP_arifle_RPK74									{ quality = 1; price = 400; };
-	//class CUP_arifle_AK107_GL_kobra							{ quality = 1; price = 400; };
-	//class CUP_arifle_AK107_kobra							{ quality = 1; price = 400; };
-	//class CUP_arifle_AK107_GL_pso							{ quality = 1; price = 400; };
-	//class CUP_arifle_AK107_pso								{ quality = 1; price = 400; };
-	//class CUP_arifle_AKS74UN_kobra_snds						{ quality = 1; price = 400; };
-	//class CUP_arifle_AKS74_Goshawk							{ quality = 1; price = 400; };
-	//class CUP_arifle_AKS74_NSPU								{ quality = 1; price = 400; };
-	//class CUP_arifle_AK74_GL_kobra							{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_A1_ZDDot_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_GL_ZDDot_Laser					{ quality = 1; price = 400; };
 	class CUP_arifle_CZ805_A2								{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds			{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805B_GL_ACOG_Laser					{ quality = 1; price = 400; };
 	class CUP_arifle_FNFAL									{ quality = 1; price = 400; };
-	//class CUP_arifle_FNFAL_ANPVS4							{ quality = 1; price = 400; };
 	class CUP_arifle_FNFAL_railed							{ quality = 1; price = 400; };
 	class CUP_arifle_G36A									{ quality = 1; price = 400; };
 	class CUP_arifle_G36A_camo								{ quality = 1; price = 400; };
@@ -39,37 +26,14 @@
 	class CUP_arifle_G36C_camo								{ quality = 1; price = 400; };
 	class CUP_arifle_MG36									{ quality = 1; price = 400; };
 	class CUP_arifle_MG36_camo								{ quality = 1; price = 400; };
-	//class CUP_arifle_G36C_holo_snds							{ quality = 1; price = 400; };
-	//class CUP_arifle_G36C_camo_holo_snds					{ quality = 1; price = 400; };
-	/* class CUP_arifle_ksvk_PSO3							{ quality = 1; price = 400; }; */
-	//class CUP_arifle_L85A2_Holo_laser						{ quality = 1; price = 400; };
-	//class CUP_arifle_L85A2_GL_Holo_laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_L85A2_SUSAT_Laser						{ quality = 1; price = 400; };
-	//class CUP_arifle_L85A2_GL_SUSAT_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_L85A2_CWS_Laser						{ quality = 1; price = 400; };
-	//class CUP_arifle_L85A2_ACOG_Laser						{ quality = 1; price = 400; };
 	class CUP_arifle_L85A2									{ quality = 1; price = 400; };
 	class CUP_arifle_L85A2_GL								{ quality = 1; price = 400; };
-	//class CUP_arifle_L85A2_GL_ACOG_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_L86A2_ACOG								{ quality = 1; price = 400; };
 	class CUP_arifle_L86A2									{ quality = 1; price = 400; };
 	class CUP_arifle_M16A2									{ quality = 1; price = 400; };
 	class CUP_arifle_M16A2_GL								{ quality = 1; price = 400; };
-	//class CUP_arifle_M16A4_Aim_Laser						{ quality = 1; price = 400; };
-	//class CUP_arifle_M16A4_ACOG_Laser						{ quality = 1; price = 400; };
 	class CUP_arifle_M16A4_GL								{ quality = 1; price = 400; };
-	//class CUP_arifle_M16A4_GL_ACOG_Laser					{ quality = 1; price = 400; };
 	class CUP_arifle_M4A1									{ quality = 1; price = 400; };
 	class CUP_arifle_M4A1_camo								{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A1_camo_Aim							{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A3_desert_Aim_Flashlight				{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A3_desert_GL_ACOG_Laser				{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A1_Aim								{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A1_camo_AIM_snds						{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A1_GL_Holo_Flashlight				{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A1_GL_ACOG_Flashlight				{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A1_camo_GL_Holo_Flashlight			{ quality = 1; price = 400; };
-	//class CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds		{ quality = 1; price = 400; };
 	class CUP_arifle_M16A4_Base								{ quality = 1; price = 400; };
 	class CUP_arifle_M16A4GL								{ quality = 1; price = 400; };
 	class CUP_arifle_M4A1_BUIS_GL							{ quality = 1; price = 400; };
@@ -79,53 +43,24 @@
 	class CUP_arifle_M4A1_desert							{ quality = 1; price = 400; };
 	class CUP_arifle_Sa58P									{ quality = 1; price = 400; };
 	class CUP_arifle_Sa58V									{ quality = 1; price = 400; };
-	//class CUP_arifle_Sa58V_ACOG_Laser						{ quality = 1; price = 400; };
-	//class CUP_arifle_Sa58V_Aim_Laser						{ quality = 1; price = 400; };
 	class CUP_arifle_Mk16_CQC								{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds				{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk16_CQC_SFG_Holo						{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk16_STD_EGLM_ACOG_Laser				{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk16_STD_EGLM_ANPAS13c1_Laser_mfsup    { quality = 1; price = 400; };
-	//class CUP_arifle_Mk16_STD_FG_Holo_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk16_STD_FG_LeupoldMk4CQT_Laser		{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk17_CQC_SFG_Aim_mfsup					{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk17_STD_FG_Aim_Laser_snds				{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk20_SB11420_snds						{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk17_STD_EGL_ElcanSpecter_Laser		{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk17_STD_FG_ANPAS13c1_Laser_Snds		{ quality = 1; price = 400; };
 	class CUP_arifle_XM8_Compact_Rail						{ quality = 1; price = 400; };
 	class CUP_arifle_XM8_Railed								{ quality = 1; price = 400; };
 	class CUP_arifle_XM8_Carbine							{ quality = 1; price = 400; };
 	class CUP_arifle_XM8_Carbine_FG							{ quality = 1; price = 400; };
 	class CUP_arifle_XM8_Carbine_GL							{ quality = 1; price = 400; };
 	class CUP_arifle_XM8_Compact							{ quality = 1; price = 400; };
-	//class CUP_arifle_XM8_Compact_Holo_Flashlight			{ quality = 1; price = 400; };
-	//class CUP_arifle_XM8_Railed_Holo_Laser_snds				{ quality = 1; price = 400; };
 	class CUP_arifle_xm8_SAW								{ quality = 1; price = 400; };
 	class CUP_arifle_xm8_sharpshooter						{ quality = 1; price = 400; };
-	//class CUP_arifle_XM8_Railed_ANPAS13c1_Laser				{ quality = 1; price = 400; };
-	//class CUP_arifle_XM8_Railed_ANPAS13c1_Laser_snds		{ quality = 1; price = 400; };
 	class CUP_arifle_CZ805_A1								{ quality = 1; price = 400; };
 	class CUP_arifle_CZ805_GL								{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_A2_Holo_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_A1_Holo_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_A2_Aco_Laser						{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_A1_Aco_Laser						{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_A1_MRCO_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_A2_MRCO_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_CZ805_GL_Hamr_Laser					{ quality = 1; price = 400; };
 	class CUP_arifle_CZ805_B_GL								{ quality = 1; price = 400; };
 	class CUP_arifle_CZ805_B								{ quality = 1; price = 400; };
 	class CUP_arifle_Sa58P_des								{ quality = 1; price = 400; };
 	class CUP_arifle_Sa58V_camo								{ quality = 1; price = 400; };
 	class CUP_arifle_Sa58RIS1								{ quality = 1; price = 400; };
-	//class CUP_arifle_Sa58RIS1_des							{ quality = 1; price = 400; };	//may be broken
 	class CUP_arifle_Sa58RIS2								{ quality = 1; price = 400; };
 	class CUP_arifle_Sa58RIS2_camo							{ quality = 1; price = 400; };
-	//class CUP_arifle_Sa58RIS1_Aco_Laser						{ quality = 1; price = 400; };
-	//class CUP_arifle_Sa58RIS2_Arco_Laser					{ quality = 1; price = 400; };
-	//class CUP_arifle_Sa58RIS1_camo_Aco_Laser				{ quality = 1; price = 400; };
-	//class CUP_arifle_Sa58RIS2_camo_Arco_Laser				{ quality = 1; price = 400; };
 	class CUP_arifle_Mk16_CQC_FG							{ quality = 1; price = 400; };
 	class CUP_arifle_Mk16_CQC_SFG							{ quality = 1; price = 400; };
 	class CUP_arifle_Mk16_CQC_EGLM							{ quality = 1; price = 400; };
@@ -134,7 +69,6 @@
 	class CUP_arifle_Mk16_STD_SFG							{ quality = 1; price = 400; };
 	class CUP_arifle_Mk16_STD_EGLM							{ quality = 1; price = 400; };
 	class CUP_arifle_Mk16_SV								{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk16_CQC_EGLM_Holo_Laser_mfsup			{ quality = 1; price = 400; };
 	class CUP_arifle_Mk17_CQC								{ quality = 1; price = 400; };
 	class CUP_arifle_Mk17_CQC_FG							{ quality = 1; price = 400; };
 	class CUP_arifle_Mk17_CQC_SFG							{ quality = 1; price = 400; };
@@ -144,7 +78,6 @@
 	class CUP_arifle_Mk17_STD_SFG							{ quality = 1; price = 400; };
 	class CUP_arifle_Mk17_STD_EGLM							{ quality = 1; price = 400; };
 	class CUP_arifle_Mk20									{ quality = 1; price = 400; };
-	//class CUP_arifle_Mk20_LeupoldMk4MRT						{ quality = 1; price = 400; };
 	class CUP_sgun_AA12										{ quality = 2; price = 400; };
 	class CUP_sgun_M1014									{ quality = 1; price = 400; };
 	class CUP_sgun_Saiga12K									{ quality = 1; price = 400; };
@@ -153,22 +86,12 @@
 	// Hand Guns
 	///////////////////////////////////////////////////////////////////////////////
 	class CUP_hgun_Colt1911									{ quality = 1; price = 200; };
-	//class CUP_hgun_Colt1911_snds							{ quality = 1; price = 200; };
 	class CUP_hgun_Compact									{ quality = 1; price = 200; };
-	class CUP_hgun_Duty_M3X									{ quality = 1; price = 200; };
 	class CUP_hgun_Glock17									{ quality = 1; price = 200; };
-	//class CUP_hgun_glock17_flashlight_snds					{ quality = 1; price = 200; };
-	//class CUP_hgun_glock17_snds								{ quality = 1; price = 200; };
-	//class CUP_hgun_glock17_flashlight						{ quality = 1; price = 200; };
 	class CUP_hgun_M9										{ quality = 1; price = 200; };
-	//class CUP_hgun_M9_snds									{ quality = 1; price = 200; };
 	class CUP_hgun_Makarov									{ quality = 1; price = 200; };
 	class CUP_hgun_PB6P9									{ quality = 1; price = 200; };
-	//class CUP_hgun_PB6P9_snds								{ quality = 1; price = 200; };
 	class CUP_hgun_MicroUzi									{ quality = 1; price = 200; };
-	//class CUP_hgun_MicroUzi_snds							{ quality = 1; price = 200; };
-	//class CUP_hgun_Phantom_Flashlight						{ quality = 1; price = 200; };
-	//class CUP_hgun_Phantom_Flashlight_snds					{ quality = 1; price = 200; };
 	class CUP_hgun_TaurusTracker455							{ quality = 1; price = 200; };
 	class CUP_hgun_TaurusTracker455_gold					{ quality = 1; price = 200; };
 	class CUP_hgun_SA61										{ quality = 1; price = 200; };
@@ -180,21 +103,12 @@
 	///////////////////////////////////////////////////////////////////////////////
 	class CUP_lmg_L7A2										{ quality = 1; price = 300; };
 	class CUP_lmg_L110A1									{ quality = 1; price = 300; };
-	//class CUP_lmg_L110A1_Aim_Laser							{ quality = 1; price = 300; };
-	/* class CUP_lmg_M60A4									{ quality = 1; price = 300; }; */
 	class CUP_lmg_M240										{ quality = 1; price = 300; };
-	//class CUP_lmg_M240_ElcanM143							{ quality = 1; price = 300; };
 	class CUP_lmg_M249										{ quality = 1; price = 300; };
 	class CUP_lmg_M249_para									{ quality = 1; price = 300; };
-	//class CUP_lmg_M249_ElcanM145_Laser						{ quality = 1; price = 300; };
-	//class CUP_lmg_M249_Laser								{ quality = 1; price = 300; };
-	//class CUP_lmg_M249_ANPAS13c2_Laser						{ quality = 1; price = 300; };
-	//class CUP_lmg_Mk48_des_Aim_Laser						{ quality = 1; price = 300; };
-	//class CUP_lmg_Mk48_wdl_Aim_Laser						{ quality = 1; price = 300; };
 	class CUP_lmg_Mk48_des									{ quality = 1; price = 300; };
 	class CUP_lmg_Mk48_wdl									{ quality = 1; price = 300; };
 	class CUP_lmg_PKM										{ quality = 1; price = 300; };
-	//class CUP_lmg_Pecheneg_PScope							{ quality = 1; price = 300; };
 	class CUP_lmg_UK59										{ quality = 1; price = 300; };
 	class CUP_lmg_Pecheneg									{ quality = 1; price = 300; };
 
@@ -202,54 +116,32 @@
 	// Sub Machine Gun
 	///////////////////////////////////////////////////////////////////////////////
 	class CUP_smg_bizon										{ quality = 1; price = 200; };
-	//class CUP_smg_bizon_snds								{ quality = 1; price = 200; };
 	class CUP_smg_EVO										{ quality = 1; price = 250; };
-	//class CUP_smg_EVO_MRad_Flashlight						{ quality = 1; price = 250; };
-	//class CUP_smg_EVO_MRad_Flashlight_Snds					{ quality = 1; price = 250; };
 	class CUP_smg_MP5SD6									{ quality = 1; price = 250; };
 	class CUP_smg_MP5A5										{ quality = 1; price = 200; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	//	Sniper Rifle
 	///////////////////////////////////////////////////////////////////////////////
-	//class CUP_srifle_AS50_SBPMII							{ quality = 1; price = 1500; };
-	//class CUP_srifle_AS50_AMPAS13c2							{ quality = 1; price = 1500; };
 	class CUP_srifle_AWM_des								{ quality = 4; price = 2500; };
 	class CUP_srifle_AWM_wdl								{ quality = 4; price = 2500; };
-	//class CUP_srifle_AWM_des_SBPMII							{ quality = 1; price = 1500; };
-	//class CUP_srifle_AWM_wdl_SBPMII							{ quality = 1; price = 1500; };
 	class CUP_srifle_CZ750									{ quality = 3; price = 1500; };
-	//class CUP_srifle_CZ750_SOS_bipod						{ quality = 1; price = 1500; };
 	class CUP_srifle_DMR									{ quality = 2; price = 1500; };
-	//class CUP_srifle_DMR_LeupoldMk4							{ quality = 1; price = 1500; };
 	class CUP_srifle_CZ550									{ quality = 2; price = 1500; };
 	class CUP_srifle_LeeEnfield								{ quality = 1; price = 1500; };
 	class CUP_srifle_M14									{ quality = 1; price = 1500; };
-	/* class CUP_srifle_M15_Aim								{ quality = 1; price = 1500; }; */
 	class CUP_srifle_Mk12SPR								{ quality = 3; price = 1500; };
-	//class CUP_srifle_Mk12SPR_LeupoldM3LR					{ quality = 1; price = 1500; };
-	class CUP_srifle_M24_des								{ quality = 3; price = 1500; };
+    class CUP_srifle_M24_des								{ quality = 3; price = 1500; };
 	class CUP_srifle_M24_wdl								{ quality = 3; price = 1500; };
 	class CUP_srifle_M24_ghillie							{ quality = 3; price = 1700; };
-	//class CUP_srifle_M24_wdl_LeupoldMk4LRT					{ quality = 1; price = 1500; };
-	//class CUP_srifle_M24_des_LeupoldMk4LRT					{ quality = 1; price = 1500; };
 	class CUP_srifle_M40A3									{ quality = 3; price = 1500; };
 	class CUP_srifle_M107_Base								{ quality = 4; price = 2500; };
-	//class CUP_srifle_M107_LeupoldVX3						{ quality = 1; price = 1500; };
-	//class CUP_srifle_M107_ANPAS13c2							{ quality = 1; price = 1500; };
 	class CUP_srifle_M110									{ quality = 3; price = 1500; };
-	//class CUP_srifle_M110_ANPAS13c2							{ quality = 1; price = 1500; };
-	//class CUP_srifle_M110_ANPVS10							{ quality = 1; price = 1500; };
 	class CUP_srifle_SVD									{ quality = 2; price = 1500; };
 	class CUP_srifle_SVD_des								{ quality = 2; price = 1500; };
-	//class CUP_srifle_SVD_Des_pso							{ quality = 1; price = 1500; };
-	//class CUP_srifle_SVD_pso								{ quality = 1; price = 1500; };
 	class CUP_srifle_SVD_wdl_ghillie						{ quality = 2; price = 1700; };
-	//class CUP_srifle_SVD_des_ghillie_pso					{ quality = 1; price = 1500; };
-	//class CUP_srifle_SVD_NSPU								{ quality = 1; price = 1500; };
 	class CUP_srifle_ksvk									{ quality = 4; price = 2500; };
 	class CUP_srifle_VSSVintorez							{ quality = 1; price = 1500; };
-	//class CUP_srifle_VSSVintorez_pso						{ quality = 1; price = 1500; };
 	class CUP_srifle_AS50									{ quality = 4; price = 2500; };
 
     ///////////////////////////////////////////////////////////////////////////////

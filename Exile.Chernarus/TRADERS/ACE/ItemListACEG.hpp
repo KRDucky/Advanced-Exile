@@ -40,6 +40,7 @@ class ACE_Sandbag_empty							{ quality = 1; price = 5; };
 class ACE_HuntIR_monitor							{ quality = 2; price = 200; };
 class ACE_TacticalLadder_Pack									{ quality = 2; price = 75; };
 class ACE_EntrenchingTool								{ quality = 1; price = 25; };
+class ToolKit                        { quality = 1; price = 50; };
 class ACE_RangeTable_82mm           { quality = 4; price = 20; };
 class ACE_muzzle_mzls_H             { quality = 1; price = 25; };
 class ACE_muzzle_mzls_B             { quality = 1; price = 25; };
@@ -58,6 +59,12 @@ class ACE_DefusalKit								{ quality = 1; price = 100; };
 class ACE_DeadManSwitch									{ quality = 2; price = 75; };
 class ACE_M14								{ quality = 2; price = 25; };
 class ACE_M84							{ quality = 1; price = 25; };
+///////////////////////////////////////////////////////////////////////////////
+// Attachements
+///////////////////////////////////////////////////////////////////////////////
+class ACE_acc_pointer_red                       { quality = 1; price = 25; };
+class ACE_acc_pointer_green_IR                       { quality = 1; price = 25; };
+class ACE_acc_pointer_green                       { quality = 1; price = 25; };
 ///////////////////////////////////////////////////////////////////////////////
 // Optics
 ///////////////////////////////////////////////////////////////////////////////

@@ -4,10 +4,10 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
 ///////////////////////////////////////////////////////////////////////////////
-author = "Updated by [FPS]kuplion";
-onLoadName = "Exile Chernarus";
+author = "Updated by [HT]KRDucky";
+onLoadName = "Advanced Exile Chernarus";
 onLoadMission= "www.exilemod.com";
-loadScreen = "exile_assets\texture\mod\logo.paa";
+loadScreen = "logo\logo.paa";
 disableChannels[] = {0, 2};
 OnLoadIntro = "";
 OnLoadIntroTime = false;
@@ -46,7 +46,7 @@ enableItemsDropping = 0;
 briefing = 0;
 debriefing = 0;
 allowFunctionsLog = 1;
-enableDebugConsole = 0;
+enableDebugConsole = 1;
 allowFunctionsRecompile = 0;
 showSquadRadar = 0;
 showUAVFeed = 0;
