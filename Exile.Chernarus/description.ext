@@ -7,7 +7,7 @@
 author = "Updated by [HT]KRDucky";
 onLoadName = "Advanced Exile Chernarus";
 onLoadMission= "www.exilemod.com";
-loadScreen = "\logo\logo.paa";
+//loadScreen = "\logo\logo.paa";
 disableChannels[] = {0, 2};
 OnLoadIntro = "";
 OnLoadIntroTime = false;

@@ -106,6 +106,23 @@ class ACE3Bandage: Exile_AbstractCraftingRecipe
 	};
 };
 
+class ToolKit: Exile_AbstractCraftingRecipe
+{
+	name = "Toolkit";
+	pictureItem = "ToolKit";
+	returnedItems[] = {
+		{1, "ToolKit"}
+	};
+	components[] =
+	{
+		{1, "Exile_Item_Pliers"},
+		{1, "Exile_Item_Grinder"},
+		{1, "Exile_Item_Pliers"},
+		{1, "Exile_Item_Screwdriver"},
+		{1, "Exile_Item_DuctTape"}
+	};
+};
+
 class BreachingChargeMetal: Exile_AbstractCraftingRecipe
 {
 	name = "Breaching Charge (Metal)";
@@ -3250,11 +3267,7 @@ class CfgExileArsenal
 	// ACE
 	///////////////////////////////////////////////////////////////////////////////
   #include "TRADERS\ACE\ItemListACEG.hpp"
-
-
-	//RZ infection
-	class rzinfection_antivirus_pills		{ quality = 1; price = 250; };
-	class rzinfection_antivirus_injector	{ quality = 1; price = 750; };
+	
 };
 
 
@@ -3529,7 +3542,7 @@ class CfgXM8
 	class ExAd_SB
 	{
 		title = "Statsbar Settings";
-		controlID = 50400;					//IDC:50400 -> 50475 || These need to be unique and out of range from each other
+		controlID = 50444;					//IDC:50400 -> 50475 || These need to be unique and out of range from each other
 		logo = "exile_assets\texture\ui\xm8_app_settings_ca.paa";
 		onLoad = "ExAdClient\XM8\Apps\SB_Settings\onLoad.sqf";
 	};
@@ -5253,9 +5266,7 @@ class CfgTraderCategories
 			"Exile_Item_InstaDoc",
 			"Exile_Item_Bandage",
 			"Exile_Item_Vishpirin",
-            "rzinfection_antivirus_pills",
-			"rzinfection_antivirus_injector",
-			"Exile_Item_Heatpack"
+            "Exile_Item_Heatpack"
 
 			// Not available in 0.9.4!
 			//"Exile_Item_Defibrillator"

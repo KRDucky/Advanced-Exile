@@ -1,7 +1,7 @@
 private "_this";
 _this = _this select 0;
 
-if (side _this == west) then
+if (side _this == east) then
 {
 	_poptabs = round random 200;
 	_this setVariable ["ExileMoney",_poptabs,true];
